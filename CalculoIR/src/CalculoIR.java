@@ -10,8 +10,7 @@ public class CalculoIR {
 
         if (salario <= 1899.0) {
             System.out.println("Você não terá desconto de IR");
-        }
-        else if (salario >= 1900.0 && salario <= 2800.0) {
+        } else if (salario >= 1900.0 && salario <= 2800.0) {
             System.out.println("A sua aliquota é de 7,5%");
             System.out.println("Você pode deduzir até R$ 142");
         } else if (salario >= 2800.01 && salario <= 3751.0) {
